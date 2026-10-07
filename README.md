@@ -62,13 +62,14 @@ I'm a DevOps and cloud engineer from Islamabad, Pakistan, with **10+ years** of 
 
 ### 📌 Featured Projects
 
-| Project | What it shows |
-|---|---|
-| [terraform-azure-frontdoor-multienv](https://github.com/bilalahmad984/terraform-azure-frontdoor-multienv) | Azure Front Door with QA, staging and production origin groups, rule sets and path rewrites in Terraform |
-| [github-actions-build-once-deploy-many](https://github.com/bilalahmad984/github-actions-build-once-deploy-many) | Reusable workflows that build one artifact and promote it across environments, with Semgrep, Gitleaks and TruffleHog |
-| [aws-cloudformation-network-baseline](https://github.com/bilalahmad984/aws-cloudformation-network-baseline) | VPC, subnets, Transit Gateway and site-to-site VPN as CloudFormation templates |
-| [observability-grafana-sentry](https://github.com/bilalahmad984/observability-grafana-sentry) | Grafana dashboards with a CloudWatch data source, plus Sentry setup for a sample app |
-| [mail-ops-toolkit](https://github.com/bilalahmad984/mail-ops-toolkit) | Scripts for Postal and SmarterMail operations: blacklist checks, suppression list cleanup, delivery reports |
+Real production setups I designed and run for clients in the Netherlands. Each repository contains the pipelines, server configuration and architecture; application code stays private.
+
+| Project | Cloud | What it shows |
+|---|---|---|
+| [HockeyFood](https://github.com/bilalahmad984/HockeyFoodforSidelineB.V) | AWS | .NET microservices (WebBFF, MobileBFF, SSO) + Vue.js on EC2, SHA-tagged images on ECR, RDS SQL Server in a private subnet, CloudWatch logs with SNS alerts, OpenTelemetry via ADOT, Let's Encrypt |
+| [LuluChat Tennis](https://github.com/bilalahmad984/Luluchat-tennisforLisaX) | Azure | .NET + Vue.js chat platform on an Ubuntu VM, images on Azure Container Registry, Azure Front Door and Blob Storage, SQL Server in a private subnet, dev / stg / prod |
+| [LuluChat Hockey](https://github.com/bilalahmad984/LuluchathockeyforLisaX) | Azure | Separate deployment of the same chat platform for hockey clubs, with its own environments, registry images and pipelines |
+| [Trainings Manager](https://github.com/bilalahmad984/trainingsmanagerforLisaX) | AWS + Cloudflare | Rails API and Solid Queue worker on EC2 via ECR, Brakeman and RuboCop gates, RDS PostgreSQL in a private subnet, Vue.js on Cloudflare Pages, four environments |
 
 ---
 
